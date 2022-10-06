@@ -400,6 +400,9 @@ main{
     margin-right: 5%;
 }
 
+.skills{
+    height: 60%;
+}
 .universidades{
     display: flex;
     flex-direction: row;
