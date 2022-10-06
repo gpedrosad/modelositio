@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color: #e5e5e5;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 40px 0;
+    background-color: #e5e5e5;
+
+}
+
+.footer .social { 
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+ul.show{
+    top: 65px;
+}
+
+
+
+form{
+ background: #fff;   
+ width: 640px;
+ margin: 50px auto;
+ max-width: 97%;
+ border-radius: 25px;
+ padding: 55px 30px;
+
+}
+
+form .title h2{
+    letter-spacing: 6px;
+    border-bottom: 1px solid #14213d;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+
+}
+
+form .half{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+form .half .item{
+display: flex;
+flex-direction: column;
+margin-bottom: 24px;
+width: 48%;
+}
+
+form label{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+}
+
+form .half .item input{
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+}
+
+form .full{
+    margin-bottom: 24px;
+
+}
+
+form .full textarea{
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid black;
+    outline: 0;
+    padding: 12px 16px;
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+}
+
+form .action{
+    margin-bottom: 32px;
+
+}
+
+form .action input{
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 3px;
+    outline: 0;
+    padding: 0 20px 0 22px;
+    margin-right: 10px;
+
+}
+
+form .action input[type="submit"]{
+    background: #FCA311;
+    color: black;
+
+}
+
+form .half .item input:focus, form .full textarea:focus, form .action input [type="reset"]:hover form .icons a:hover{
+
+    background: rgba(255,255,255,0.7s);
+}
+
+form .icons a{
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+    color: black;
+
+}
+
+@media(max-width: 480px){
+    form.half{
+        flex-direction: column;
+    }
+
+    form .half .item{
+        width: 100%;
+    }
+    form .action{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .action input{
+        margin-bottom: 10px;
+        width: 100%;
+
+    }
+    .itemuno{
+        font-size: small;
+    }
+    .itemdos{
+        font-size: small;
+    }
+    .detalles{
+        text-align: center;
+    }
+
+
+    
+
+}
+
+
+.cuerpo{
+    height: 500px;
+}
+
+.contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 500px;
+    background-color: #e5e5e5;
+    justify-content: space-evenly;
+    align-items: center;
+        
+}
+
+.itemuno{
+    width: 30%;
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.itemdos{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    height: 350px;
+    display: flex;
+    margin-right: 5%;
+    flex-direction: column;
+}
+.yo{
+    width: 100px;
+    height: 150px;
+}
+
+.fotoyo{
+    display: flex;
+    justify-content: center;
+}
+
+.hola{
+margin-left: 5%;
+align-items: flex-start;
+display: flex;
+flex-direction: column;
+}
+
+.detalles{
+    background-color: #FCA311;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.letradetalle{
+font-weight: bold;
+}
+
+.tabla{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.titulodos{
+    background-color: #FCA311;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+
+}
+
+.segundotitulo{
+    font-weight: bold;
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: white;
+    border-radius:50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: white;
+
+}
+
+.descripcion{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ventana{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.imagenventana{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    flex-wrap: wrap;
+}
+
+main{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.educacion{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.tituloeducacion{
+    background-color: #FCA311;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.edudescripcion{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.letrabold{
+    font-weight: bold;
+}
+
+.habilidades{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.universidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.udd{
+    height: 100px;
+    display: flex;
+}
+
+.uade{
+    height: 100px;
+    display: flex;
+}
+
+.nav__input:checked + .nav__menu{
+    background: #e5e5e5;
+}
+
+.nav__menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+
+.nav__item{
+    color: #fff;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav{
+    background: #293241;
+    height: 80px;
+    color: white;
+}
+
+.nav__logo{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav__container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__label, .nav__input{
+    display: none;
+}
+
+.nav__item::after{
+    content: "";
+    display: block;
+    background: white;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .5s;
+}
+
+.nav__item::hover{
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@media (max-width: 700px){
+    .nav__label{
+        display: block;
+        cursor: pointer;
+    }
+    .nav__menu{
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background: #293241;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+    
+    }
+    .nav__input:checked + .nav__menu{
+        background: #293241;
+        clip-path: circle(100% at center);
+    }
+}
+
+.contenedor__experiencia{
+    display: flex;
+}
+
+.texto__experiencia{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.experiencia{
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 600px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.contenedor__experiencia{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titulo__experiencia{
+    display: flex;
+    width: 100%;
+    background-color: #FCA311;
+    justify-content: center;
+    font-weight: bold;
+    height: 50px;
+    align-items: center;
+}
