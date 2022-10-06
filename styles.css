@@ -477,7 +477,7 @@ main{
         position: fixed;
         top: 80px;
         bottom: 0;
-        background: tomato;
+        background: #293241;
         width: 100%;
         left: 0;
         display: flex;
@@ -488,7 +488,7 @@ main{
     
     }
     .nav__input:checked + .nav__menu{
-        background: tomato;
+        background: #293241;
         clip-path: circle(100% at center);
     }
 }
